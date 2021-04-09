@@ -15,7 +15,7 @@ class ReadData {
         // Connect to a node
         IotaAPI api = new IotaAPI.Builder()
             .protocol("https")
-            .host("nodes.devnet.thetangle.org")
+            .host("nodes.comnet.thetangle.org")
             .port(443)
             .build();
 

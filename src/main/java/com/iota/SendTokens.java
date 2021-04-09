@@ -13,12 +13,12 @@ class SendTokens {
         // Connect to a node
         IotaAPI api = new IotaAPI.Builder()
             .protocol("https")
-            .host("nodes.devnet.thetangle.org")
+            .host("nodes.comnet.thetangle.org")
             .port(443)
             .build();
         
         int depth = 3;
-        int minimumWeightMagnitude = 9;
+        int minimumWeightMagnitude = 10;
 
         // Replace this seed with the one that owns the address you used to get free test tokens
         String mySeed = "JBN9ZRCOH9YRUGSWIQNZWAIFEZUBDUGTFPVRKXWPAUCEQQFS9NHPQLXCKZKRHVCCUZNF9CZZWKXRZVCWQ";

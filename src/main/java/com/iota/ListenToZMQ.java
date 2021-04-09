@@ -9,7 +9,7 @@ public class ListenToZMQ {
         ZMQ.Context context = ZMQ.context(1);
         ZMQ.Socket socket = context.socket(SocketType.SUB);
 
-        socket.connect("tcp://zmq.devnet.iota.org:5556");
+        socket.connect("tcp://zmq.comnet.iota.org:5556");
         // Subscribe to all new transactions
         socket.subscribe("tx");
         // Subscribe to all confirmed transactions

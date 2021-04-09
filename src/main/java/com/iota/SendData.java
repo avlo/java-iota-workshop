@@ -15,12 +15,12 @@ class SendData {
         // Connect to a node
         IotaAPI api = new IotaAPI.Builder()
             .protocol("https")
-            .host("nodes.devnet.thetangle.org")
+            .host("nodes.comnet.thetangle.org")
             .port(443)
             .build();
 
         int depth = 3;
-        int minimumWeightMagnitude = 9;
+        int minimumWeightMagnitude = 10;
 
         // Even though a seed is not necessary because zero value transactions are not signed,
         // the library requires a seed to send a transaction.
